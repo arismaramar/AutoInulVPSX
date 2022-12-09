@@ -32,7 +32,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 
-wget https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 sleep 2
 clear
 
@@ -43,7 +43,7 @@ echo -e "$green Install Vmess,Trojan,Vless,Shadowsoks  $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/xrayv5.sh && chmod +x xrayv5.sh && ./xrayv5.sh
+wget https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/xrayv5.sh && chmod +x xrayv5.sh && ./xrayv5.sh
 sleep 2
 clear
 
@@ -60,22 +60,22 @@ clear
 #package tambahan add aaccount
 
 #Vmess/v2ray
-wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/add-vmess-user.sh" && chmod +x /usr/bin/add-ws
-wget -q -O /usr/bin/cek-ws "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/cek-user.sh" && chmod +x /usr/bin/cek-ws
+wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/add-vmess-user.sh" && chmod +x /usr/bin/add-ws
+wget -q -O /usr/bin/cek-ws "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/cek-user.sh" && chmod +x /usr/bin/cek-ws
 wget -q -O /usr/bin/del-ws "https://raw.githubusercontent.com/bracoli/v4/main/xray/del-ws.sh" && chmod +x /usr/bin/del-ws
 wget -q -O /usr/bin/renew-ws "https://raw.githubusercontent.com/bracoli/v4/main/xray/renew-ws.sh" && chmod +x /usr/bin/renew-ws
 
 #Vless
-wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/add-vless.sh" && chmod +x /usr/bin/add-vless
-wget -q -O /usr/bin/renew-vless "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/renew-vless.sh" && chmod +x /usr/bin/renew-vless
-wget -q -O /usr/bin/del-vless "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/del-vless.sh" && chmod +x /usr/bin/del-vless
-wget -q -O /usr/bin/cek-vless "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/cek-user.sh" && chmod +x /usr/bin/cek-vless
+wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/add-vless.sh" && chmod +x /usr/bin/add-vless
+wget -q -O /usr/bin/renew-vless "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/renew-vless.sh" && chmod +x /usr/bin/renew-vless
+wget -q -O /usr/bin/del-vless "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/del-vless.sh" && chmod +x /usr/bin/del-vless
+wget -q -O /usr/bin/cek-vless "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/cek-user.sh" && chmod +x /usr/bin/cek-vless
 
 #trojan
-wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/add-trojan-user.sh" && chmod +x /usr/bin/add-tr
+wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/add-trojan-user.sh" && chmod +x /usr/bin/add-tr
 wget -q -O /usr/bin/addtrgo "https://raw.githubusercontent.com/hidessh99/tuunnel-mx/main/xray/hide-add-tr.sh" && chmod +x /usr/bin/addtrgo
 
-wget -q -O /usr/bin/del-tr "https://raw.githubusercontent.com/burhansyam/scaio/main/xray/del-tr.sh" && chmod +x /usr/bin/del-tr
+wget -q -O /usr/bin/del-tr "https://raw.githubusercontent.com/arismaramar/scaio/main/xray/del-tr.sh" && chmod +x /usr/bin/del-tr
 wget -q -O /usr/bin/renew-tr "https://raw.githubusercontent.com/bracoli/v4/main/xray/renew-tr.sh" && chmod +x /usr/bin/renew-tr
 wget -q -O /usr/bin/cek-tr "https://raw.githubusercontent.com/hidessh99/projek10/main/cek-user.sh" && chmod +x /usr/bin/cek-tr
 
@@ -162,7 +162,7 @@ rm /root/setup.sh >/dev/null 2>&1
 rm /root/ins-xray.sh >/dev/null 2>&1
 rm /root/insshws.sh >/dev/null 2>&1
 cd
-wget https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/hide/pack-hide.sh;chmod +x pack-hide.sh;./pack-hide.sh
+wget https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/hide/pack-hide.sh;chmod +x pack-hide.sh;./pack-hide.sh
 rm -rf updatek.sh
 rm -rf dns-cf.sh
 rm -rf update.sh
