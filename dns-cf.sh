@@ -18,12 +18,18 @@ echo "Checking VPS"
 clear
 apt install jq curl -y
 
+DOMAIN=co.remoot.my.id
+SUB_DOMAIN=ns-${sub}.remoot.my.id
+NS_DOMAIN=s-${sub}.remoot.my.id
+CF_ID=arismar.amar@gmail.com
+CF_KEY=f7fa85e2472592639b7d1cf82f1c5490ec1cd
+
 ###DOM#AIN=ipsvr.my.id
-DOMAIN=ipsvr.me
-sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.ipsvr.me
-CF_ID=sonialrahman64@gmail.com
-CF_KEY=39b7e0a538c0b1dd21b89029772dc8d442c8c
+#DOMAIN=ipsvr.me
+#sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
+#SUB_DOMAIN=${sub}.ipsvr.me
+#CF_ID=sonialrahman64@gmail.com
+#CF_KEY=39b7e0a538c0b1dd21b89029772dc8d442c8c
 
 ##SUB_DOMAIN=${sub}.installer.my.id
 ##CF_ID=senowahyu62@gmail.com
