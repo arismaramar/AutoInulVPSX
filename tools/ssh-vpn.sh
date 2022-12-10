@@ -226,7 +226,7 @@ echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 sleep 1cd
 # Custom Banner SSH
 echo "================  Banner ======================"
-wget -O /etc/issue.net "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/tools/banner.conf"
+wget -O /etc/issue.net "https://raw.githubusercontent.com/arismaramar/supreme/aio/issue.net"
 chmod +x /etc/issue.net
 
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
