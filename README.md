@@ -8,7 +8,7 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 
 # Update beberapa paket tambahan
 ```
-wget https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/update-package.sh;chmod +x update-package.sh;./update-package.sh
+wget https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/update-package.sh;chmod +x update-package.sh;./update-package.sh
 ```
 ## Kemudian Restart VPS
 ```
@@ -16,12 +16,12 @@ reboot
 ```
 # Lanjut Install VPS
 ```
-wget https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh`
+wget https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh`
 ```
 # Jika nginx error
 ```
-wget -O /etc/xray/xray.crt https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/xray.crt
-wget -O /etc/xray/xray.key https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/xray/xray.key
+wget -O /etc/xray/xray.crt https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/xray.crt
+wget -O /etc/xray/xray.key https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/xray/xray.key
 service nginx restart
 ```
 
