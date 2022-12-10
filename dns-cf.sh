@@ -18,7 +18,7 @@ echo "Checking VPS"
 clear
 apt install jq curl -y
 
-DOMAIN=co.remoot.my.id
+DOMAIN=remoot.my.id
 SUB_DOMAIN=ns-${sub}.remoot.my.id
 NS_DOMAIN=s-${sub}.remoot.my.id
 CF_ID=arismar.amar@gmail.com
