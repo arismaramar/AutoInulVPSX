@@ -132,7 +132,7 @@ echo -e "$green          Install Paket              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget -q https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/tools.sh;chmod +x tools.sh;./tools.sh
+wget -q https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/tools.sh;chmod +x tools.sh;./tools.sh
 cd
 rm tools.sh
 clear
@@ -143,10 +143,10 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 #remove log
-wget -q -O /usr/bin/removelog "https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/logrm.sh" && chmod +x /usr/bin/removelog
+wget -q -O /usr/bin/removelog "https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/logrm.sh" && chmod +x /usr/bin/removelog
 #cronjob
 echo "30 * * * * root removelog" >> /etc/crontab
-wget -q https://raw.githubusercontent.com/burhansyam/AutoInulVPSX/main/dns-cf.sh;chmod +x dns-cf.sh;./dns-cf.sh
+wget -q https://raw.githubusercontent.com/arismaramar/AutoInulVPSX/main/dns-cf.sh;chmod +x dns-cf.sh;./dns-cf.sh
 sleep 2
 clear
 
